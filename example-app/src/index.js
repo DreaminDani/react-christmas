@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const rootEl = document.createElement('div');
+const rootEl = document.getElementById('root')
 const root = ReactDOM.createRoot(rootEl)
 root.render(<App />)
 
